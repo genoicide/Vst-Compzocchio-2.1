@@ -1,0 +1,1 @@
+Copy Molot.vst to /Library/Audio/Plug-Ins/VST

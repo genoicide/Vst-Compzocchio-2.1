@@ -1,0 +1,42 @@
+﻿Compilazione avviata 14/10/2013 16:56:52.
+Progetto "C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\libpng\projects\visualc71\libpng.vcxproj" sul nodo 2 (destinazioni: Build).
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\libpng\projects\visualc71\.\Win32_DLL_Release\libpng.dll) does not match the Linker's OutputFile property value (C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\libpng\projects\visualc71\Win32_DLL_Release\libpng14.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(libpng) does not match the Linker's OutputFile property value (libpng14). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Win32_DLL_Release\libpng14.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\..\scripts\pngwin.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Win32_DLL_Release\libpng.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Win32_DLL_Release\libpng.lib" /MACHINE:X86 /SAFESEH /DLL .\Win32_DLL_Release\pngwin.res
+  .\Win32_DLL_Release\png.obj
+  .\Win32_DLL_Release\pngerror.obj
+  .\Win32_DLL_Release\pngget.obj
+  .\Win32_DLL_Release\pngmem.obj
+  .\Win32_DLL_Release\pngpread.obj
+  .\Win32_DLL_Release\pngread.obj
+  .\Win32_DLL_Release\pngrio.obj
+  .\Win32_DLL_Release\pngrtran.obj
+  .\Win32_DLL_Release\pngrutil.obj
+  .\Win32_DLL_Release\pngset.obj
+  .\Win32_DLL_Release\pngtrans.obj
+  .\Win32_DLL_Release\pngwio.obj
+  .\Win32_DLL_Release\pngwrite.obj
+  .\Win32_DLL_Release\pngwtran.obj
+  .\Win32_DLL_Release\pngwutil.obj
+     Creazione della libreria .\Win32_DLL_Release\libpng.lib e dell'oggetto .\Win32_DLL_Release\libpng.exp in corso...
+png.obj : error LNK2019: riferimento al simbolo esterno __imp__inflateReset non risolto nella funzione _png_reset_zstream
+pngpread.obj : error LNK2001: simbolo esterno __imp__inflateReset non risolto
+pngrutil.obj : error LNK2001: simbolo esterno __imp__inflateReset non risolto
+png.obj : error LNK2019: riferimento al simbolo esterno __imp__crc32 non risolto nella funzione _png_calculate_crc
+pngpread.obj : error LNK2019: riferimento al simbolo esterno __imp__inflate non risolto nella funzione _png_process_IDAT_data
+pngread.obj : error LNK2001: simbolo esterno __imp__inflate non risolto
+pngrutil.obj : error LNK2001: simbolo esterno __imp__inflate non risolto
+pngread.obj : error LNK2019: riferimento al simbolo esterno __imp__inflateEnd non risolto nella funzione _png_read_destroy
+pngread.obj : error LNK2019: riferimento al simbolo esterno __imp__inflateInit_ non risolto nella funzione _png_create_read_struct_2
+pngwrite.obj : error LNK2019: riferimento al simbolo esterno __imp__deflate non risolto nella funzione _png_write_flush
+pngwutil.obj : error LNK2001: simbolo esterno __imp__deflate non risolto
+pngwrite.obj : error LNK2019: riferimento al simbolo esterno __imp__deflateEnd non risolto nella funzione _png_write_destroy
+pngwutil.obj : error LNK2019: riferimento al simbolo esterno __imp__deflateReset non risolto nella funzione _png_write_compressed_data_out
+pngwutil.obj : error LNK2019: riferimento al simbolo esterno __imp__deflateInit2_ non risolto nella funzione _png_write_IHDR
+.\Win32_DLL_Release\libpng14.dll : fatal error LNK1120: 9 esterni non risolti
+Compilazione progetto "C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\libpng\projects\visualc71\libpng.vcxproj" (destinazioni: Build) NON COMPLETATA.
+
+Compilazione NON RIUSCITA.
+
+Tempo trascorso 00:00:01.82

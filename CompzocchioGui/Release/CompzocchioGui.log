@@ -1,0 +1,37 @@
+﻿Compilazione avviata 08/11/2013 20:43:55.
+Progetto "C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\CompzocchioGui\CompzocchioGui.vcxproj" sul nodo 2 (destinazioni: Build).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\vstsdk2.4 /I..\vstsdk2.4\vstgui.sf\vstgui /I..\vstsdk2.4\public.sdk\source\vst2.x /I..\libpng /I..\zlib /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /GL /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D molot_EXPORTS /D USE_LIBPNG /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Compzocchio.cpp
+  Compzocchio.cpp
+Compzocchio.cpp(64): warning C4244: '=': conversione da 'float' a 'long'. Possibile perdita di dati.
+Compzocchio.cpp(65): warning C4244: '=': conversione da 'float' a 'long'. Possibile perdita di dati.
+Compzocchio.cpp(158): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+Compzocchio.cpp(175): warning C4244: '=': conversione da 'float' a 'long'. Possibile perdita di dati.
+Compzocchio.cpp(184): warning C4244: '=': conversione da 'float' a 'long'. Possibile perdita di dati.
+Compzocchio.cpp(208): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+Compzocchio.cpp(295): warning C4244: 'argomento': conversione da 'float' a 'int'. Possibile perdita di dati.
+Compzocchio.cpp(314): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+Compzocchio.cpp(340): warning C4244: 'argomento': conversione da 'float' a 'VstInt32'. Possibile perdita di dati.
+Compzocchio.cpp(341): warning C4244: 'argomento': conversione da 'float' a 'VstInt32'. Possibile perdita di dati.
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\CompzocchioGui\Release\CompzocchioGui.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\vstsdk2.4\public.sdk\samples\vst2.x\win\vstplug.def" /MANIFEST:NO /PDB:"C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\CompzocchioGui\Release\CompzocchioGui.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\CompzocchioGui\Release\CompzocchioGui.lib" /MACHINE:X86 /SAFESEH /DLL Release\CompzocchioGui.res
+  Release\audioeffect.obj
+  Release\audioeffectx.obj
+  Release\vstplugmain.obj
+  Release\aeffguieditor.obj
+  Release\vstcontrols.obj
+  Release\vstgui.obj
+  Release\Compzocchio.obj
+  Release\CompzocchioGui.obj
+  Release\czeditor.obj
+  "C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\libpng\projects\visualc71\Win32_LIB_Release\libpng.lib"
+  "C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\zlib\contrib\vstudio\vc9\x86\ZlibDllRelease\zlibvc.lib"
+     Creazione della libreria C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\CompzocchioGui\Release\CompzocchioGui.lib e dell'oggetto C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\CompzocchioGui\Release\CompzocchioGui.exp in corso...
+  Generazione codice in corso...
+  Generazione codice terminata
+  CompzocchioGui.vcxproj -> C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\CompzocchioGui\Release\CompzocchioGui.dll
+Compilazione progetto "C:\Users\Mattia\Desktop\Audio plugin developement\esempi\CompzocchioGui 2.10\CompzocchioGui\CompzocchioGui.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:06.62
